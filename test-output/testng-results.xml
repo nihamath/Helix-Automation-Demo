@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T15:50:57 IST" name="Default suite" finished-at="2023-03-22T15:51:03 IST" duration-ms="5852">
+    <groups>
+    </groups>
+    <test started-at="2023-03-22T15:50:57 IST" name="Default test" finished-at="2023-03-22T15:51:03 IST" duration-ms="5852">
+      <class name="TestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase@59505b48]" started-at="2023-03-22T15:50:57 IST" name="setUp" finished-at="2023-03-22T15:51:00 IST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login_to_the_application_with_invalid_credentials_sauce51()[pri:0, instance:TestCase@59505b48]" started-at="2023-03-22T15:51:00 IST" name="Login_to_the_application_with_invalid_credentials_sauce51" finished-at="2023-03-22T15:51:02 IST" duration-ms="1524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_the_application_with_invalid_credentials_sauce51 -->
+        <test-method signature="Login_to_the_application_with_valid_credentials_sauce50()[pri:0, instance:TestCase@59505b48]" started-at="2023-03-22T15:51:02 IST" name="Login_to_the_application_with_valid_credentials_sauce50" finished-at="2023-03-22T15:51:02 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_the_application_with_valid_credentials_sauce50 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase@59505b48]" started-at="2023-03-22T15:51:02 IST" name="tearDown" finished-at="2023-03-22T15:51:03 IST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
