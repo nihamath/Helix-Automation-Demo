@@ -23,7 +23,7 @@ public class TestCase {
     }
 
     @Test
-    public void Login_to_the_application_with_valid_credentials_sauce50() throws InterruptedException {
+    public void Login_to_the_application_with_valid_credentials() throws InterruptedException {
     	driver.get("https://www.saucedemo.com/");
        	driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
@@ -33,7 +33,7 @@ public class TestCase {
     }
     
     @Test
-    public void Login_to_the_application_with_invalid_credentials_sauce51() throws InterruptedException {
+    public void verify_the_logout_feature() throws InterruptedException {
     	driver.get("https://www.saucedemo.com/");
        	driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
