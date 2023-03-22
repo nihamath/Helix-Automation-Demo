@@ -40,7 +40,7 @@ public class TestCase {
         driver.findElement(By.id("login-button")).click();
         driver.findElement(By.id("react-burger-menu-btn")).click();
         driver.findElement(By.id("logout_sidebar_link")).click();
-        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='login_logo']")).getText(), "Swag Labs");
+        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='login_logo']")).getText(), "Swag Labs!");
         
     }
 
